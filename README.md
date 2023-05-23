@@ -5,7 +5,7 @@
 ## 使用方法
 
 ### 1.点击最新的Releases 1
-![image]([https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png](https://github.com/Weslielong/ProxyConfig/blob/main/img/image-20230524041456714.png))
+![image](https://github.com/Weslielong/ProxyConfig/blob/main/img/image-20230524041456714.png)
 
 ### 2.右键复制对应的文件链接
 
