@@ -1,7 +1,7 @@
 ####################################
-# 创建者：v2rayse.com
+# 创建者：Weslielong
 # 客户端：Clash
-# 创建时间：2023-06-06 15:11:32
+# 创建时间：2023-06-06 15:16:04
 # 使用模版：V2RaySE 默认模版
 # 节点数量：6
 ####################################
@@ -26,7 +26,7 @@ proxies:
   - {"name":"美国_3","type":"vmess","server":"140.99.5.246","port":41823,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.88041707.xyz","network":"tcp"}
   - {"name":"美国_4","type":"vmess","server":"137.175.57.6","port":50040,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.24125478.xyz","network":"tcp"}
   - {"name":"如无法使用请手动设置跳过证书验证为ture","type":"vmess","server":"0.0.0.0","port":666,"cipher":"auto","uuid":"36803209-240e-4963-a79b-1d2cd6e71838","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"上次更新时间","type":"vmess","server":"23.06.06.15","port":3,"cipher":"auto","uuid":"11111","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"上次更新时间","type":"vmess","server":"23.06.06.15","port":3,"cipher":"auto","uuid":"b506730b-6bd4-4e1d-8cd7-9e96e018d246","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
