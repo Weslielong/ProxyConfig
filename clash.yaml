@@ -1,9 +1,9 @@
 ####################################
-# 创建者：Weslielong
+# 创建者：WeslieLong
 # 客户端：Clash
-# 创建时间：2023-06-07 11:18:47
+# 创建时间：2023-06-09 00:40:11
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：13
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,14 +21,19 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"美国_1","type":"vmess","server":"45.86.11.238","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"ww.68844076.xyz","network":"ws","ws-opts":{"path":"/path/111312300304\"","headers":{"host":"ww.68844076.xyz"}}}
-  - {"name":"美国_2","type":"vmess","server":"198.2.196.57","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.82592324.xyz","network":"tcp"}
-  - {"name":"美国_3","type":"vmess","server":"140.99.5.246","port":41823,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.88041707.xyz","network":"tcp"}
-  - {"name":"美国_4","type":"vmess","server":"137.175.29.39","port":53986,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国_5","type":"vmess","server":"64.32.21.248","port":44313,"cipher":"auto","uuid":"57f93e92-ebb9-4f16-9bdc-8225d2010995","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.37419052.xyz","network":"tcp"}
-  - {"name":"美国_6","type":"vmess","server":"140.99.129.247","port":48901,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.24125478.xyz","network":"tcp"}
+  - {"name":"美国_1","type":"vmess","server":"140.99.129.248","port":48901,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国_2","type":"vmess","server":"198.2.196.10","port":42689,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国_3","type":"vmess","server":"142.0.139.57","port":56079,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.24125478.xyz","network":"tcp"}
+  - {"name":"美国_4","type":"vmess","server":"140.99.5.246","port":41823,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.88041707.xyz","network":"tcp"}
+  - {"name":"美国_5","type":"vmess","server":"137.175.57.8","port":50040,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国_6","type":"vmess","server":"107.148.197.178","port":54044,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国_7","type":"vmess","server":"198.2.196.57","port":54434,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.82592324.xyz","network":"tcp"}
+  - {"name":"美国_8","type":"vmess","server":"64.32.21.248","port":44313,"cipher":"auto","uuid":"57f93e92-ebb9-4f16-9bdc-8225d2010995","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"www.37419052.xyz","network":"tcp"}
+  - {"name":"美国_9","type":"vmess","server":"45.86.11.238","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"ww.68844076.xyz","network":"ws","ws-opts":{"path":"/path/111312300304","headers":{"host":"ww.68844076.xyz"}}}
+  - {"name":"美国_10","type":"vmess","server":"45.92.160.138","port":53602,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国_11","type":"vmess","server":"140.99.127.211","port":54774,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"上次更新时间","type":"vmess","server":"23.06.09.00","port":36,"cipher":"auto","uuid":"b506730b-6bd4-4e1d-8cd7-9e96e018d246","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"如无法使用请手动设置跳过证书验证为ture","type":"vmess","server":"0.0.0.0","port":666,"cipher":"auto","uuid":"36803209-240e-4963-a79b-1d2cd6e71838","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"上次更新时间","type":"vmess","server":"23.06.07.11","port":16,"cipher":"auto","uuid":"b506730b-6bd4-4e1d-8cd7-9e96e018d246","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,8 +46,13 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
-      - 如无法使用请手动设置跳过证书验证为ture
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
       - 上次更新时间
+      - 如无法使用请手动设置跳过证书验证为ture
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -55,6 +65,11 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -67,8 +82,13 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
-      - 如无法使用请手动设置跳过证书验证为ture
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
       - 上次更新时间
+      - 如无法使用请手动设置跳过证书验证为ture
   - name: 📲 电报信息
     type: select
     proxies:
@@ -80,8 +100,13 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
-      - 如无法使用请手动设置跳过证书验证为ture
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
       - 上次更新时间
+      - 如无法使用请手动设置跳过证书验证为ture
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,8 +118,13 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
-      - 如无法使用请手动设置跳过证书验证为ture
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
       - 上次更新时间
+      - 如无法使用请手动设置跳过证书验证为ture
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -106,8 +136,13 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
-      - 如无法使用请手动设置跳过证书验证为ture
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
       - 上次更新时间
+      - 如无法使用请手动设置跳过证书验证为ture
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -136,8 +171,13 @@ proxy-groups:
       - 美国_4
       - 美国_5
       - 美国_6
-      - 如无法使用请手动设置跳过证书验证为ture
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
       - 上次更新时间
+      - 如无法使用请手动设置跳过证书验证为ture
 
 rules:
 # 本地/局域网地址
